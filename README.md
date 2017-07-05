@@ -14,6 +14,7 @@ Attach a target postgres container to this container and mount a volume to conta
 | `PGPASSWORD` | Optional | `None` | The password for accessing the database |
 | `PGDB` | Optional | postgres | The name of the database |
 | `PGHOST` | Optional | db | The hostname of the database |
+| `PGPORT` | Optional | `5432` | The port for the database |
 | `CRON_SCHEDULE` | Required | 0 1 * * * | The cron schedule at which to run the pg_dump |
 | `DELETE_OLDER_THAN` | Optional | `None` | Optionally, delete files older than `DELETE_OLDER_THAN` minutes. Do not include `+` or `-`. |
 
