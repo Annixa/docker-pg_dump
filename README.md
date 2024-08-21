@@ -1,3 +1,6 @@
+# ARCHIVED
+### This project is _very_ old. You're free to base your solution on this project, but I recommend you do not use any previously built images
+
 annixa/pg_dump
 ================
 
